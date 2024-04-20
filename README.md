@@ -1,3 +1,20 @@
+En la carpeta de server.js en una terminal escribir para conectarse a la base de datos:
+
+node server.js
+
+Eso mantiene la base de datos abierta, ahora en otra terminar ingresar al root del app, es decir la carpeta baselan, y luego correr el app:
+
+npm start
+
+Se aparece una pestaña de ingreso de información a la base de datos, lo cool es que podemos cerrar la app, pero mientras el servidor de la base de datos siga corriendo entonces al abrir el app desde otra terminal u otro puerto distinto van a compartir los datos ya escritos.
+
+Que falta? Falta permitir que esa conexión se pueda hacer por red Lan desde otros dispositivos para escribir en la misma base de datos.
+
+GLHF
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
